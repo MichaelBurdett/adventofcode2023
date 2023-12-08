@@ -1,0 +1,28 @@
+<div class="container ">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>Lines (Original)</h2>
+      <div class="" *ngFor="let line of partOneLinesOriginal">
+        <p class="mb-0">{{line}}</p>
+        <hr>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h2>Lines (Original)</h2>
+      <div class="" *ngFor="let line of partOneRoundsOriginal">
+        <p class="mb-0">{{line | json}}</p>
+        <hr>
+      </div>
+    </div>
+
+
+<!--    <div class="col-md-3">-->
+<!--      <h2>Lines (Stripped)</h2>-->
+<!--      <p class="mb-0" *ngFor="let line of partOneLinesStripped">{{line}}</p>-->
+<!--    </div>-->
+<!--    <div class="col-md-3">-->
+<!--      <h2>Lines (Ready)</h2>-->
+<!--      <p class="mb-0" *ngFor="let line of partOneLinesReady">{{line}}</p>-->
+<!--    </div>-->
+  </div>
+</div>
